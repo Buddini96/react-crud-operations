@@ -1,0 +1,44 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "name": "Buddini Pathianayaka",
+            "username": "Buddini",
+            "email": "buddini@gmail.com",
+            "phone": "1-765-789-6734",
+            "website": "hiderg.org"
+        },
+        {
+            "id": 2,
+            "name": "Sansa Akeshi",
+            "username": "Sansa",
+            "email": "sansa@gmail.com",
+            "phone": "1-956-001-1945",
+            "website": "organ.org"
+        },
+        {
+            "id": 3,
+            "name": "John Winseley",
+            "username": "johnd",
+            "email": "john@gmail.com",
+            "phone": "1-570-236-7033",
+            "website": "ascentic.org"
+        },
+        {
+            "id": 4,
+            "name": "Morison Johnson",
+            "username": "Morison",
+            "email": "morrison@gmail.com",
+            "phone": "0751235496",
+            "website": "Orgepican.org"
+        },
+        {
+            "id": 5,
+            "name": "Kevin Antonio",
+            "username": "Kevin",
+            "email": "kevin@gmail.com",
+            "phone": "1-567-094-1345",
+            "website": "Antonio.org"
+        }
+    ]
+}
