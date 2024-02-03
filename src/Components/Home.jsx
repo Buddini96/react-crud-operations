@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 function Home() {
+
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -31,14 +32,14 @@ function Home() {
               </thead>
               <tbody>
                 {
-                  data.map((d,id) => (
-                    <tr key={id}>
+                  data.map((d,i) => (
+                    <tr key={i}>
                       <td>{d.id}</td>
                       <td>{d.name}</td>
                       <td>{d.email}</td>
                       <td>{d.phone}</td>
                       <td>
-                        <button className='btn btn-sm btn-warning me-2'>View</button>
+                        <Link to={`/view/${d.id}`} className='btn btn-sm btn-warning me-2'>View</Link>
                         <button className='btn btn-sm btn-primary me-2'>Edit</button>
                         <button className='btn btn-sm btn-danger'>Delete</button>
                       </td>

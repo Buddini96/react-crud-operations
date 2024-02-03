@@ -5,6 +5,7 @@ import Create from './Components/Create';
 import Update from './Components/Update';
 import Delete from './Components/Delete';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import View from './Components/View';
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/create' element={<Create/>}></Route>
-        <Route path='/update' element={<Update/>}></Route>
+        <Route path='/update/:id' element={<Update/>}></Route>
         <Route path='/delete' element={<Delete/>}></Route>
+        <Route path="/view/:id" element={<View />} />
       </Routes>
     </BrowserRouter>
   )
