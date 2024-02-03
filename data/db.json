@@ -2,9 +2,9 @@
   "users": [
     {
       "id": "1",
-      "name": "Buddini Pathianayaka",
-      "email": "buddini@gmail.com",
-      "phone": "1-765-789-6734"
+      "name": "Buddini Updated",
+      "email": "buddiniUp@gmail.com",
+      "phone": "1-765-789"
     },
     {
       "id": "2",
@@ -17,19 +17,6 @@
       "name": "John Winseley",
       "email": "john@gmail.com",
       "phone": "1-570-236-7033"
-    },
-    {
-      "id": "4",
-      "name": "Morison Johnson",
-      "username": "Morison",
-      "email": "morrison@gmail.com",
-      "phone": "0751235496"
-    },
-    {
-      "id": "5",
-      "name": "kavi",
-      "email": "kavi@gmail.com",
-      "phone": "0768861459"
     }
   ]
 }
